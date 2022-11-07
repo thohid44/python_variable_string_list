@@ -24,4 +24,11 @@ print(b)
 c = 1+2j
 print(c)
 
-#
+# python list example
+list_example = [2,"java", 'php', 'Dart', 'Flutter']
+print(type(list_example))
+print("3rd number of item in the list is",list_example[2])
+
+list_number = [4,5,3,2]
+if(list_number[0]==list_number[3]):
+    print("Available in the list")
